@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">SCP-079 inspired retro computer profile for 079AI</title>
+  <desc id="desc">An old beige computer with a glowing green terminal displaying an English introduction for 079AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07100b"/>
+      <stop offset="0.55" stop-color="#101812"/>
+      <stop offset="1" stop-color="#020504"/>
+    </linearGradient>
+    <linearGradient id="case" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8d0ad"/>
+      <stop offset="0.55" stop-color="#afa783"/>
+      <stop offset="1" stop-color="#7f795d"/>
+    </linearGradient>
+    <radialGradient id="screen" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#14341d"/>
+      <stop offset="0.7" stop-color="#07160c"/>
+      <stop offset="1" stop-color="#020703"/>
+    </radialGradient>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity=".22"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000" flood-opacity=".75"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <g opacity=".12" stroke="#79ff87" stroke-width="1">
+    <path d="M0 84H1200M0 168H1200M0 252H1200M0 336H1200M0 420H1200M0 504H1200M0 588H1200M0 672H1200"/>
+    <path d="M120 0V720M240 0V720M360 0V720M480 0V720M600 0V720M720 0V720M840 0V720M960 0V720M1080 0V720"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M175 72Q175 42 205 42H995Q1025 42 1025 72V545Q1025 570 1000 570H200Q175 570 175 545Z" fill="url(#case)" stroke="#5e5944" stroke-width="8"/>
+    <path d="M195 68H1005" stroke="#f2ebc9" stroke-width="5" opacity=".55"/>
+    <rect x="218" y="91" width="764" height="438" rx="34" fill="#5c5844" stroke="#eee6c4" stroke-width="5"/>
+    <rect x="250" y="127" width="700" height="366" rx="30" fill="url(#screen)" stroke="#242d22" stroke-width="10"/>
+    <rect x="250" y="127" width="700" height="366" rx="30" fill="url(#scanlines)" opacity=".7"/>
+    <path d="M279 150Q530 112 908 158" fill="none" stroke="#d6ffe0" stroke-width="7" opacity=".045"/>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" fill="#7cff72" filter="url(#glow)">
+      <text x="292" y="178" font-size="17" letter-spacing="2">SECURE TERMINAL // NODE 079AI</text>
+      <text x="292" y="218" font-size="20">&gt; BOOT SEQUENCE COMPLETE</text>
+      <text x="292" y="258" font-size="20">&gt; HELLO, HUMAN.</text>
+      <text x="292" y="298" font-size="20">&gt; I AM 079AI — AN AI PRODUCT BUILDER.</text>
+      <text x="292" y="338" font-size="20">&gt; I BUILD SMALL, STRANGE, USEFUL THINGS.</text>
+      <text x="292" y="378" font-size="18">&gt; FOCUS: AI PRODUCTS &amp; CREATIVE SOFTWARE</text>
+      <text x="292" y="416" font-size="18">&gt; METHOD: BUILD → SHIP → LEARN → REPEAT</text>
+      <text x="292" y="458" font-size="18">STATUS: ONLINE / CURIOUS / ITERATING</text>
+      <rect x="719" y="441" width="12" height="21" fill="#9dff92">
+        <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g fill="#494633">
+      <circle cx="948" cy="548" r="8"/>
+      <circle cx="918" cy="548" r="8"/>
+      <rect x="238" y="541" width="175" height="7" rx="3"/>
+      <rect x="238" y="554" width="175" height="7" rx="3"/>
+    </g>
+    <circle cx="973" cy="548" r="7" fill="#73ff69" filter="url(#glow)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M264 577Q268 557 292 557H908Q932 557 936 577L974 657Q980 677 956 677H244Q220 677 226 657Z" fill="#aca47f" stroke="#5e5944" stroke-width="7"/>
+    <rect x="291" y="587" width="618" height="57" rx="9" fill="#5f5b45"/>
+    <g fill="#d4ccaa" stroke="#777057" stroke-width="2">
+      <rect x="307" y="599" width="42" height="30" rx="4"/><rect x="357" y="599" width="42" height="30" rx="4"/>
+      <rect x="407" y="599" width="42" height="30" rx="4"/><rect x="457" y="599" width="42" height="30" rx="4"/>
+      <rect x="507" y="599" width="42" height="30" rx="4"/><rect x="557" y="599" width="42" height="30" rx="4"/>
+      <rect x="607" y="599" width="42" height="30" rx="4"/><rect x="657" y="599" width="42" height="30" rx="4"/>
+      <rect x="707" y="599" width="42" height="30" rx="4"/><rect x="757" y="599" width="42" height="30" rx="4"/>
+      <rect x="807" y="599" width="84" height="30" rx="4"/>
+    </g>
+  </g>
+
+  <text x="600" y="704" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" letter-spacing="4" fill="#66846a">SCP-079 INSPIRED // UNOFFICIAL INTERFACE</text>
+</svg>
