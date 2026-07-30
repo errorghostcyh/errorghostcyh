@@ -35,6 +35,15 @@ FOCUS        AI PRODUCTS / CREATIVE SOFTWARE
 PROTOCOL     BUILD -> SHIP -> LEARN -> REPEAT
 ```
 
+### `> TRANSMISSION_CHANNELS`
+
+<samp>
+EMAIL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:errorghostcyh@gmail.com">errorghostcyh@gmail.com</a>&nbsp;&nbsp;[OPEN]<br />
+BLOG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TBD&nbsp;&nbsp;[OFFLINE]<br />
+BILIBILI&nbsp;&nbsp;&nbsp;&nbsp;TBD&nbsp;&nbsp;[OFFLINE]<br />
+X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TBD&nbsp;&nbsp;[OFFLINE]
+</samp>
+
 <div align="center">
   <sub>SCP-079 inspired interface · Unofficial fan-made profile</sub>
 </div>
